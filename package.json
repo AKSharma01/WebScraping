@@ -1,0 +1,19 @@
+{
+  "name": "WebScraping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://AKSharma01@github.com/AKSharma01/WebScraping.git",
+  "author": "Akash Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "mongoose": "^5.7.3",
+    "pg": "^7.12.1",
+    "pg-hstore": "^2.3.3",
+    "request": "^2.88.0",
+    "sequelize": "^5.19.3"
+  }
+}
