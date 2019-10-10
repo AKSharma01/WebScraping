@@ -21,7 +21,7 @@ __Table of content__
 #### Install The Node.Js And NMP Packages On Ubuntu 16.04 / 18.04 LTS
 ```sh
 >>> sudo curl -sL https://deb.nodesource.com/setup_10.x -o nodesource_setup.sh
->>> sudo bash nodesource_setup.sh
+>>> sudo sh nodesource_setup.sh
 >>> sudo apt-get install nodejs
 >>> nodejs -v
 v10.16.3
