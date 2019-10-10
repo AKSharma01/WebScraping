@@ -1,0 +1,15 @@
+ENV=dev
+
+BASE_URL=https://medium.com/
+
+
+#============================ DEV ENVIROMENT ============================
+DEV_PSQL_USER=user
+DEV_PSQL_HOST=localhost
+DEV_PSQL_PORT=5432
+DEV_PSQL_PASSWORD=rentmojo
+DEV_PSQL_DATABASE=rentmojo
+DEV_DB_TYPE=postgres
+
+
+#============================ PROD ENVIROMENT ============================

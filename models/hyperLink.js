@@ -1,6 +1,6 @@
 'use strict';
 
-
+const uuid = require("uuid/v4");
 const constants = require(rootDir+"/utils/constants")
 
 module.exports = (sequelize, DataTypes) => {
@@ -52,4 +52,5 @@ module.exports = (sequelize, DataTypes) => {
 	HyperLink.addHook("beforeValidate", (link) => {
 		link.id = uuid();
 	})
+	return HyperLink
 }
